@@ -27,6 +27,18 @@ const loraWeights = [
 export const FontFamilies: Story = {
   render: () => (
     <div className="space-y-10">
+      {/* Usage Rules */}
+      <section>
+        <h2 className="font-display font-bold text-sm uppercase tracking-widest text-gray-400 mb-3">
+          Usage Rules
+        </h2>
+        <ul className="list-disc list-inside text-sm text-charles-blue space-y-1">
+          <li>Montserrat must always be used in UPPERCASE bold</li>
+          <li>Lora is for body text (small) or large italic for quotes and secondary text</li>
+          <li>Pair Lora with Montserrat whenever possible</li>
+        </ul>
+      </section>
+
       {/* Montserrat */}
       <section>
         <h2 className="font-display font-bold text-sm uppercase tracking-widest text-gray-400 mb-4">
@@ -70,6 +82,11 @@ export const FontFamilies: Story = {
           ))}
         </div>
       </section>
+
+      {/* Email Fallback Fonts */}
+      <p className="text-xs text-gray-400 mt-6">
+        Email fallbacks: Lora → Georgia, Montserrat → Arial
+      </p>
     </div>
   ),
 }
@@ -134,6 +151,44 @@ export const TypeScale: Story = {
           </div>
         )
       })}
+    </div>
+  ),
+}
+
+// ─── Non-Latin Typeface Alternatives ─────────────────────────────────────────
+
+const nonLatinAlternatives = [
+  { language: 'Arabic', loraReplacement: 'Markazi Text', montserratReplacement: 'Mada' },
+  { language: 'Traditional Chinese (\u7E41\u9AD4\u4E2D\u6587)', loraReplacement: 'Noto Serif TC', montserratReplacement: 'Noto Sans TC' },
+  { language: 'Simplified Chinese (\u7B80\u4F53\u4E2D\u6587)', loraReplacement: 'Noto Serif SC', montserratReplacement: 'Noto Sans SC' },
+  { language: 'Vietnamese (Ti\u1EBFng Vi\u1EC7t)', loraReplacement: 'Palatino or Lora', montserratReplacement: 'Montserrat' },
+  { language: 'Spanish, French, Russian, Portuguese, Haitian Creole, Cape Verdean Creole', loraReplacement: 'Lora (no change)', montserratReplacement: 'Montserrat (no change)' },
+]
+
+export const NonLatinAlternatives: Story = {
+  render: () => (
+    <div className="space-y-6">
+      <p className="font-display font-bold text-sm uppercase tracking-widest text-gray-400 mb-2">
+        Non-Latin Typeface Alternatives
+      </p>
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="border-b border-gray-200">
+            <th className="text-left py-2 pr-4 text-charles-blue font-semibold">Language</th>
+            <th className="text-left py-2 pr-4 text-charles-blue font-semibold">Lora Replacement</th>
+            <th className="text-left py-2 text-charles-blue font-semibold">Montserrat Replacement</th>
+          </tr>
+        </thead>
+        <tbody>
+          {nonLatinAlternatives.map(({ language, loraReplacement, montserratReplacement }) => (
+            <tr key={language} className="border-b border-gray-200">
+              <td className="py-2 pr-4 text-gray-400">{language}</td>
+              <td className="py-2 pr-4 text-gray-400">{loraReplacement}</td>
+              <td className="py-2 text-gray-400">{montserratReplacement}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   ),
 }

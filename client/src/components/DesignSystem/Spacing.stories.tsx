@@ -29,7 +29,7 @@ const maxPx = 64
 export const VisualScale: Story = {
   render: () => (
     <div className="space-y-2">
-      <h2 className="text-lg font-semibold mb-4">Spacing Scale</h2>
+      <h2 className="font-display font-bold text-sm uppercase tracking-widest text-gray-400 mb-4">Spacing Scale</h2>
       {spacingScale.map(({ token, px }) => (
         <div key={token} className="flex items-center gap-4">
           <span className="text-sm font-mono text-gray-400 w-8 text-right shrink-0">{px}px</span>
@@ -47,7 +47,7 @@ export const VisualScale: Story = {
 export const ProjectPatterns: Story = {
   render: () => (
     <div className="space-y-8">
-      <h2 className="text-lg font-semibold">Common Project Patterns</h2>
+      <h2 className="font-display font-bold text-sm uppercase tracking-widest text-gray-400">Common Project Patterns</h2>
 
       {/* Card padding — p-4 (16px) */}
       <div>
@@ -97,7 +97,7 @@ export const ProjectPatterns: Story = {
 export const ReferenceTable: Story = {
   render: () => (
     <div>
-      <h2 className="text-lg font-semibold mb-4">Spacing Reference</h2>
+      <h2 className="font-display font-bold text-sm uppercase tracking-widest text-gray-400 mb-4">Spacing Reference</h2>
       <table className="w-full text-sm border-collapse">
         <thead>
           <tr className="border-b border-gray-200">
