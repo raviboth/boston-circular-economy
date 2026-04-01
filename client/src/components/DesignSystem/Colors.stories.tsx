@@ -55,26 +55,26 @@ function SwatchGrid() {
     <div className="space-y-8 font-sans">
       {colorGroups.map((group) => (
         <section key={group.label}>
-          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-500">
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-400">
             {group.label}
           </h2>
           <div className="flex flex-wrap gap-4">
             {group.tokens.map((token) => (
               <div key={token.name} className="w-36">
                 <div
-                  className="mb-2 h-16 w-full rounded border border-black/10"
+                  className="mb-2 h-16 w-full rounded border border-gray-300"
                   style={{ backgroundColor: token.hex }}
                 />
-                <p className="text-sm font-medium text-gray-900">{token.name}</p>
-                <p className="font-mono text-xs text-gray-500">{token.hex}</p>
-                <p className="font-mono text-xs text-gray-400">{token.tailwindClass}</p>
+                <p className="text-sm font-medium text-charles-blue">{token.name}</p>
+                <p className="font-mono text-xs text-gray-400">{token.hex}</p>
+                <p className="font-mono text-xs text-gray-300">{token.tailwindClass}</p>
               </div>
             ))}
           </div>
         </section>
       ))}
 
-      <aside className="rounded border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
+      <aside className="rounded border border-blue-400 bg-blue-100 p-4 text-sm text-charles-blue">
         <strong>Contrast Rule:</strong> Optimistic Blue must never be placed on Freedom Red or vice
         versa.
       </aside>
