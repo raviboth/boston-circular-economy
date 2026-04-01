@@ -42,7 +42,7 @@ export function ServiceCard({ name, serviceTypes, location, hours, description }
           <h3 className="font-display font-bold text-charles-blue text-base leading-snug">
             {name}
           </h3>
-          <span className="text-gray-300 mt-0.5 shrink-0" aria-hidden="true">
+          <span className="text-gray-400 mt-0.5 shrink-0" aria-hidden="true">
             {isExpanded ? (
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />

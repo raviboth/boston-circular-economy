@@ -33,19 +33,19 @@ const colorGroups: ColorGroup[] = [
   {
     label: 'Blue Scale',
     tokens: [
-      { name: 'blue-100', hex: '#D6E8F7', tailwindClass: 'bg-blue-100' },
-      { name: 'blue-200', hex: '#A3C9EB', tailwindClass: 'bg-blue-200' },
-      { name: 'blue-300', hex: '#5C9FD4', tailwindClass: 'bg-blue-300' },
-      { name: 'blue-400', hex: '#2275B8', tailwindClass: 'bg-blue-400' },
+      { name: 'blue-100', hex: '#51ACFF', tailwindClass: 'bg-blue-100' },
+      { name: 'blue-200', hex: '#45789C', tailwindClass: 'bg-blue-200' },
+      { name: 'blue-300', hex: '#0C2639', tailwindClass: 'bg-blue-300' },
+      { name: 'blue-400', hex: '#061622', tailwindClass: 'bg-blue-400' },
     ],
   },
   {
     label: 'Gray Scale',
     tokens: [
       { name: 'gray-100', hex: '#F2F2F2', tailwindClass: 'bg-gray-100' },
-      { name: 'gray-200', hex: '#D8D8D8', tailwindClass: 'bg-gray-200' },
-      { name: 'gray-300', hex: '#A7A9AC', tailwindClass: 'bg-gray-300' },
-      { name: 'gray-400', hex: '#58595B', tailwindClass: 'bg-gray-400' },
+      { name: 'gray-200', hex: '#E0E0E0', tailwindClass: 'bg-gray-200' },
+      { name: 'gray-300', hex: '#D2D2D2', tailwindClass: 'bg-gray-300' },
+      { name: 'gray-400', hex: '#58585B', tailwindClass: 'bg-gray-400' },
     ],
   },
 ]
@@ -74,7 +74,7 @@ function SwatchGrid() {
         </section>
       ))}
 
-      <aside className="rounded border border-blue-400 bg-blue-100 p-4 text-sm text-charles-blue">
+      <aside className="rounded border border-gray-300 bg-gray-100 p-4 text-sm text-charles-blue">
         <strong>Contrast Rule:</strong> Optimistic Blue must never be placed on Freedom Red or vice
         versa.
       </aside>

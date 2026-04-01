@@ -22,7 +22,7 @@ export function SearchBar({ value, onChange, placeholder = 'Search services…' 
 
   return (
     <div className="relative w-full">
-      <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-gray-300">
+      <span className="absolute inset-y-0 left-3 flex items-center pointer-events-none text-gray-400">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"
@@ -48,7 +48,7 @@ export function SearchBar({ value, onChange, placeholder = 'Search services…' 
           'w-full rounded-lg border border-gray-200 bg-white',
           'pl-10 pr-4 py-3',
           'font-display text-sm text-charles-blue',
-          'placeholder:font-body placeholder:text-gray-300 placeholder:italic',
+          'placeholder:font-body placeholder:text-gray-400 placeholder:italic',
           'focus:outline-none focus:ring-2 focus:ring-optimistic-blue focus:border-transparent',
           'transition-shadow duration-150',
         ].join(' ')}

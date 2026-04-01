@@ -1,6 +1,6 @@
 const variantClasses: Record<string, string> = {
-  repair: 'bg-blue-100 text-blue-400',
-  donation: 'bg-blue-200 text-charles-blue',
+  repair: 'bg-blue-100 text-charles-blue',
+  donation: 'bg-blue-200 text-white',
   lending: 'bg-blue-300 text-white',
   exchange: 'bg-gray-100 text-gray-400',
   'repair-cafe': 'bg-gray-200 text-charles-blue',
