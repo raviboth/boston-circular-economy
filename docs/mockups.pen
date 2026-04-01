@@ -1,0 +1,1864 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "l8A2S",
+      "x": 900,
+      "y": 0,
+      "name": "Service Directory (Desktop)",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "qJeuz",
+          "name": "NavBar",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "#091F2F",
+          "padding": [
+            0,
+            40
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bryGq",
+              "name": "navBrand",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "seCdQ",
+                  "name": "navCircle",
+                  "fill": "#1871BD",
+                  "width": 28,
+                  "height": 28
+                },
+                {
+                  "type": "text",
+                  "id": "lzGRY",
+                  "name": "navTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Boston Circular Economy",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LaY2U",
+              "name": "navLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "6G5m2",
+                  "name": "navL1",
+                  "fill": "#FFFFFF",
+                  "content": "Home",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "fLdVR",
+                  "name": "navL2",
+                  "fill": "#C8E0FF",
+                  "content": "Services",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "brlSW",
+                  "name": "navL3",
+                  "fill": "#FFFFFF",
+                  "content": "About",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "Damkn",
+                  "name": "navL4",
+                  "fill": "#1871BD",
+                  "cornerRadius": 6,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XzvHC",
+                      "name": "navL4text",
+                      "fill": "#FFFFFF",
+                      "content": "Add a Service",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mV266",
+          "name": "Content Background",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F0F5FA",
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ov2vP",
+              "name": "Page Container",
+              "width": 1200,
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                40,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mYSA6",
+                  "name": "Hero Section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L9dDj",
+                      "name": "heroHeading",
+                      "fill": "#091F2F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Find Circular Economy Services in Boston",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dOVnS",
+                      "name": "heroSub",
+                      "fill": "#4A6375",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Discover local repair shops, donation centers, lending libraries, and more.",
+                      "fontFamily": "Lora",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jTGCQ",
+                      "name": "SearchBar",
+                      "width": "fill_container",
+                      "height": 52,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CxaGQ",
+                          "name": "searchInput",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "#FFFFFF",
+                          "cornerRadius": [
+                            8,
+                            0,
+                            0,
+                            8
+                          ],
+                          "stroke": {
+                            "align": "center",
+                            "thickness": 1.5,
+                            "fill": "#CBD5E0"
+                          },
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "2atGw",
+                              "name": "searchIcon",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "search",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9AACBB"
+                            },
+                            {
+                              "type": "text",
+                              "id": "6IFCF",
+                              "name": "searchPlaceholder",
+                              "fill": "#9AACBB",
+                              "content": "Search by service, neighborhood, or organization…",
+                              "fontFamily": "Lora",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "f5HuA",
+                          "name": "searchBtn",
+                          "width": 120,
+                          "height": "fill_container",
+                          "fill": "#1871BD",
+                          "cornerRadius": [
+                            0,
+                            8,
+                            8,
+                            0
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "I3bfr",
+                              "name": "searchBtnText",
+                              "fill": "#FFFFFF",
+                              "content": "Search",
+                              "fontFamily": "Montserrat",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jrtcS",
+                  "name": "Filter Badges",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Sjrqc",
+                      "name": "filterLabel",
+                      "fill": "#4A6375",
+                      "content": "Filter:",
+                      "fontFamily": "Montserrat",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oCwiV",
+                      "name": "badgeAll",
+                      "fill": "#091F2F",
+                      "cornerRadius": 20,
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x0CJc",
+                          "name": "badgeAllText",
+                          "fill": "#FFFFFF",
+                          "content": "All",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Zxrne",
+                      "name": "badgeRepair",
+                      "fill": "#E8F1F8",
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#1871BD"
+                      },
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hhib5",
+                          "name": "badgeRepairText",
+                          "fill": "#1871BD",
+                          "content": "Repair",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Yx9a5",
+                      "name": "badgeDonation",
+                      "fill": "#E8F1F8",
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#1871BD"
+                      },
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "07TOv",
+                          "name": "badgeDonationText",
+                          "fill": "#1871BD",
+                          "content": "Donation",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3XIft",
+                      "name": "badgeLending",
+                      "fill": "#E8F1F8",
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#1871BD"
+                      },
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Yt9Pe",
+                          "name": "badgeLendingText",
+                          "fill": "#1871BD",
+                          "content": "Lending",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "1eWbz",
+                      "name": "badgeExchange",
+                      "fill": "#E8F1F8",
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#1871BD"
+                      },
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LO7ag",
+                          "name": "badgeExchangeText",
+                          "fill": "#1871BD",
+                          "content": "Exchange",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fOlSO",
+                      "name": "badgeCafe",
+                      "fill": "#FEE8E7",
+                      "cornerRadius": 20,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#FB4D42"
+                      },
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "feYOn",
+                          "name": "badgeCafeText",
+                          "fill": "#FB4D42",
+                          "content": "Repair Café",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "izWHE",
+                  "name": "resultsCount",
+                  "fill": "#6B7280",
+                  "content": "32 services found near you",
+                  "fontFamily": "Lora",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "yaArb",
+                  "name": "Card Row 1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mFsPZ",
+                      "name": "card1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000018",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xa9xI",
+                          "name": "card1header",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BPg4B",
+                              "name": "card1title",
+                              "fill": "#091F2F",
+                              "content": "South End Tool Library",
+                              "fontFamily": "Montserrat",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "31YFH",
+                              "name": "card1badge",
+                              "fill": "#E8F1F8",
+                              "cornerRadius": 12,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qbHKA",
+                                  "name": "card1badgeText",
+                                  "fill": "#1871BD",
+                                  "content": "Lending",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TXnBI",
+                          "name": "card1loc",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "5zkC9",
+                              "name": "card1locIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9AACBB"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Iuntv",
+                              "name": "card1locText",
+                              "fill": "#6B7280",
+                              "content": "South End · 0.4 mi",
+                              "fontFamily": "Lora",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lhc1v",
+                          "name": "card1hours",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "cSHj3",
+                              "name": "card1hoursIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "timer",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9AACBB"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PUfoR",
+                              "name": "card1hoursText",
+                              "fill": "#6B7280",
+                              "content": "Tue & Thu 5–8pm, Sat 10am–2pm",
+                              "fontFamily": "Lora",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "7fJQ3",
+                          "name": "card1desc",
+                          "fill": "#4A6375",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Borrow tools for home repair and DIY projects. Over 500 items available to members. Free 3-month membership for residents.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yS4C0",
+                          "name": "card1footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "YHuX6",
+                              "name": "card1moreBtn",
+                              "fill": "#F0F5FA",
+                              "cornerRadius": 6,
+                              "gap": 4,
+                              "padding": [
+                                7,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SBQbG",
+                                  "name": "card1moreBtnText",
+                                  "fill": "#1871BD",
+                                  "content": "See details",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "SdUGP",
+                                  "name": "card1chevron",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "chevron-down",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#1871BD"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lPSvq",
+                      "name": "card2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000018",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FANBb",
+                          "name": "card2header",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "5BnGJ",
+                              "name": "card2title",
+                              "fill": "#091F2F",
+                              "content": "Jamaica Plain Repair Café",
+                              "fontFamily": "Montserrat",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "VTghL",
+                              "name": "card2badges",
+                              "gap": 6,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "YT7oA",
+                                  "name": "card2badge1",
+                                  "fill": "#FEE8E7",
+                                  "cornerRadius": 12,
+                                  "padding": [
+                                    4,
+                                    10
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "fyoN7",
+                                      "name": "card2badge1Text",
+                                      "fill": "#FB4D42",
+                                      "content": "Repair Café",
+                                      "fontFamily": "Montserrat",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "yPlSZ",
+                                  "name": "card2badge2",
+                                  "fill": "#E8F1F8",
+                                  "cornerRadius": 12,
+                                  "padding": [
+                                    4,
+                                    10
+                                  ],
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "lcHWe",
+                                      "name": "card2badge2Text",
+                                      "fill": "#1871BD",
+                                      "content": "Repair",
+                                      "fontFamily": "Montserrat",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XYlYb",
+                          "name": "card2loc",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "028hC",
+                              "name": "card2locIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9AACBB"
+                            },
+                            {
+                              "type": "text",
+                              "id": "dn9OR",
+                              "name": "card2locText",
+                              "fill": "#6B7280",
+                              "content": "Jamaica Plain · 1.2 mi",
+                              "fontFamily": "Lora",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nQqPq",
+                          "name": "card2hours",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "lq1ZO",
+                              "name": "card2hoursIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "calendar",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9AACBB"
+                            },
+                            {
+                              "type": "text",
+                              "id": "MoTiP",
+                              "name": "card2hoursText",
+                              "fill": "#6B7280",
+                              "content": "1st & 3rd Saturday, 10am–1pm",
+                              "fontFamily": "Lora",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "fAF4l",
+                          "name": "card2desc",
+                          "fill": "#4A6375",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Free repair help for clothes, electronics, furniture, and more. Volunteer fixers on site. No appointment needed — just bring your broken item!",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JUZGt",
+                          "name": "card2footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "wWNlO",
+                              "name": "card2moreBtn",
+                              "fill": "#F0F5FA",
+                              "cornerRadius": 6,
+                              "gap": 4,
+                              "padding": [
+                                7,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "8SJBi",
+                                  "name": "card2moreBtnText",
+                                  "fill": "#1871BD",
+                                  "content": "See details",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "35Z6p",
+                                  "name": "card2chevron",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "chevron-down",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#1871BD"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "atpf7",
+                  "name": "Card Row 2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bllxS",
+                      "name": "card3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000018",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "m2qb9",
+                          "name": "card3header",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "s40BD",
+                              "name": "card3title",
+                              "fill": "#091F2F",
+                              "content": "Roxbury Community Swap",
+                              "fontFamily": "Montserrat",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "8AOMs",
+                              "name": "card3badge",
+                              "fill": "#E8F1F8",
+                              "cornerRadius": 12,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "f7q9X",
+                                  "name": "card3badgeText",
+                                  "fill": "#1871BD",
+                                  "content": "Exchange",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N7vgA",
+                          "name": "card3loc",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "llwdc",
+                              "name": "card3locIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9AACBB"
+                            },
+                            {
+                              "type": "text",
+                              "id": "sBgg4",
+                              "name": "card3locText",
+                              "fill": "#6B7280",
+                              "content": "Roxbury · 2.1 mi",
+                              "fontFamily": "Lora",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "CJvPN",
+                          "name": "card3desc",
+                          "fill": "#4A6375",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Monthly free swap event — bring items you no longer need and take what you do. Clothing, books, housewares, and kids' items welcome.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Yj3VO",
+                          "name": "card3footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "v5Gxk",
+                              "name": "card3btn",
+                              "fill": "#F0F5FA",
+                              "cornerRadius": 6,
+                              "gap": 4,
+                              "padding": [
+                                7,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "O5KNX",
+                                  "name": "card3btnText",
+                                  "fill": "#1871BD",
+                                  "content": "See details",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "IYTOZ",
+                                  "name": "card3chevron",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "chevron-down",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#1871BD"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pSURQ",
+                      "name": "card4",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000018",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 8
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hgb6E",
+                          "name": "card4header",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "c1FEk",
+                              "name": "card4title",
+                              "fill": "#091F2F",
+                              "content": "Goodwill Donation Center — Allston",
+                              "fontFamily": "Montserrat",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TqU1f",
+                              "name": "card4badge",
+                              "fill": "#E8F1F8",
+                              "cornerRadius": 12,
+                              "padding": [
+                                4,
+                                10
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "EPvzl",
+                                  "name": "card4badgeText",
+                                  "fill": "#1871BD",
+                                  "content": "Donation",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6Et5h",
+                          "name": "card4loc",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "oPbww",
+                              "name": "card4locIcon",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "map-pin",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9AACBB"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ozyJA",
+                              "name": "card4locText",
+                              "fill": "#6B7280",
+                              "content": "Allston · 3.0 mi",
+                              "fontFamily": "Lora",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "nuf2G",
+                          "name": "card4desc",
+                          "fill": "#4A6375",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Drop off gently used clothing, shoes, and household items. Tax receipt provided. Open 7 days a week.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Lora",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WiyrG",
+                          "name": "card4footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vFSUT",
+                              "name": "card4hours",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "Y2e9n",
+                                  "name": "card4hoursIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "calendar",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#9AACBB"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WGS6i",
+                                  "name": "card4hoursText",
+                                  "fill": "#6B7280",
+                                  "content": "Mon–Sat 9am–8pm, Sun 10am–6pm",
+                                  "fontFamily": "Lora",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "l0GAb",
+                              "name": "card4btn",
+                              "fill": "#F0F5FA",
+                              "cornerRadius": 6,
+                              "gap": 4,
+                              "padding": [
+                                7,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "uZLwm",
+                                  "name": "card4btnText",
+                                  "fill": "#1871BD",
+                                  "content": "See details",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "TyR1S",
+                                  "name": "card4chevron",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "chevron-down",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#1871BD"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PZNka",
+      "x": 2500,
+      "y": 0,
+      "name": "Nav + Layout Shell (Mobile)",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "DrhKT",
+          "name": "NavBar Mobile",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#091F2F",
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "OCRAi",
+              "name": "mobileBrand",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "vHiBL",
+                  "name": "mobileDot",
+                  "fill": "#1871BD",
+                  "width": 22,
+                  "height": 22
+                },
+                {
+                  "type": "text",
+                  "id": "Dy5pd",
+                  "name": "mobileTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Boston Circular Economy",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z6tzd",
+              "name": "hamburgerBtn",
+              "layout": "vertical",
+              "gap": 4,
+              "padding": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "La6Na",
+                  "name": "ham1",
+                  "fill": "#FFFFFF",
+                  "width": 20,
+                  "height": 2
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "tqInT",
+                  "name": "ham2",
+                  "fill": "#FFFFFF",
+                  "width": 20,
+                  "height": 2
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 2,
+                  "id": "UCT6S",
+                  "name": "ham3",
+                  "fill": "#FFFFFF",
+                  "width": 20,
+                  "height": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kpjeK",
+          "name": "PageLayout",
+          "width": "fill_container",
+          "height": "fill_container",
+          "fill": "#F0F5FA",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "slJAC",
+              "name": "Content Container",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                20,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "j8Gj7",
+                  "name": "mobileHeroText",
+                  "fill": "#091F2F",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Find Circular Economy Services",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "7gNlt",
+                  "name": "mobileSubText",
+                  "fill": "#4A6375",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Repair, donate, lend, and exchange in your neighborhood.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Lora",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "JQUSB",
+                  "name": "Mobile SearchBar",
+                  "width": "fill_container",
+                  "height": 46,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1.5,
+                    "fill": "#CBD5E0"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "4HOpG",
+                      "name": "mobileSearchIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9AACBB"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WrTTD",
+                      "name": "mobileSearchText",
+                      "fill": "#9AACBB",
+                      "content": "Search services…",
+                      "fontFamily": "Lora",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AZ2pH",
+                  "name": "Mobile Filter Badges",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qNwhY",
+                      "name": "mbAll",
+                      "fill": "#091F2F",
+                      "cornerRadius": 16,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pGDAs",
+                          "name": "mbAllText",
+                          "fill": "#FFFFFF",
+                          "content": "All",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 11,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2HDVf",
+                      "name": "mbRepair",
+                      "fill": "#E8F1F8",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#1871BD"
+                      },
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fbPTB",
+                          "name": "mbRepairText",
+                          "fill": "#1871BD",
+                          "content": "Repair",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0nd9I",
+                      "name": "mbDonate",
+                      "fill": "#E8F1F8",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#1871BD"
+                      },
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gv6Yj",
+                          "name": "mbDonateText",
+                          "fill": "#1871BD",
+                          "content": "Donation",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9CC0t",
+                      "name": "mbCafe",
+                      "fill": "#FEE8E7",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "center",
+                        "thickness": 1,
+                        "fill": "#FB4D42"
+                      },
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jBzJh",
+                          "name": "mbCafeText",
+                          "fill": "#FB4D42",
+                          "content": "Repair Café",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EKC07",
+                  "name": "mCard1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 6
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3KVvt",
+                      "name": "mCard1header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "41Ef6",
+                          "name": "mCard1title",
+                          "fill": "#091F2F",
+                          "content": "South End Tool Library",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rfBNp",
+                          "name": "mCard1badge",
+                          "fill": "#E8F1F8",
+                          "cornerRadius": 12,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OYfeK",
+                              "name": "mCard1badgeText",
+                              "fill": "#1871BD",
+                              "content": "Lending",
+                              "fontFamily": "Montserrat",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SXDDF",
+                      "name": "mCard1loc",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "GfKJ8",
+                          "name": "mCard1locIcon",
+                          "width": 13,
+                          "height": 13,
+                          "iconFontName": "map-pin",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9AACBB"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JIsBp",
+                          "name": "mCard1locText",
+                          "fill": "#6B7280",
+                          "content": "South End · 0.4 mi",
+                          "fontFamily": "Lora",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "YA9kY",
+                      "name": "mCard1desc",
+                      "fill": "#4A6375",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Borrow tools for home repair and DIY projects. Free 3-month membership for residents.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OsmP9",
+                      "name": "mCard1btn",
+                      "fill": "#F0F5FA",
+                      "cornerRadius": 6,
+                      "gap": 4,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BfFKc",
+                          "name": "mCard1btnText",
+                          "fill": "#1871BD",
+                          "content": "See details",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gq9p3",
+                  "name": "mCard2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000014",
+                    "offset": {
+                      "x": 0,
+                      "y": 2
+                    },
+                    "blur": 6
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SDuQb",
+                      "name": "mCard2header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CAHrc",
+                          "name": "mCard2title",
+                          "fill": "#091F2F",
+                          "content": "Jamaica Plain Repair Café",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5qWGw",
+                          "name": "mCard2badges",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "bcgO8",
+                              "name": "mCard2b1",
+                              "fill": "#FEE8E7",
+                              "cornerRadius": 12,
+                              "padding": [
+                                4,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "zb52x",
+                                  "name": "mCard2b1Text",
+                                  "fill": "#FB4D42",
+                                  "content": "Repair Café",
+                                  "fontFamily": "Montserrat",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A9cG5",
+                      "name": "mCard2loc",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "u0JTT",
+                          "name": "mCard2locIcon",
+                          "width": 13,
+                          "height": 13,
+                          "iconFontName": "map-pin",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9AACBB"
+                        },
+                        {
+                          "type": "text",
+                          "id": "86HEk",
+                          "name": "mCard2locText",
+                          "fill": "#6B7280",
+                          "content": "Jamaica Plain · 1.2 mi",
+                          "fontFamily": "Lora",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "DNY3C",
+                      "name": "mCard2desc",
+                      "fill": "#4A6375",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Free repair help for clothes, electronics, and more. No appointment needed.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Lora",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KeE74",
+                      "name": "mCard2btn",
+                      "fill": "#F0F5FA",
+                      "cornerRadius": 6,
+                      "gap": 4,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "F76QA",
+                          "name": "mCard2btnText",
+                          "fill": "#1871BD",
+                          "content": "See details",
+                          "fontFamily": "Montserrat",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pBfrA",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#E2E8F0"
+          },
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "m4r5L",
+              "name": "footerText",
+              "fill": "#9AACBB",
+              "content": "© 2025 Code for Boston",
+              "fontFamily": "Lora",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "HXSjc",
+              "name": "footerLinks",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lcf42",
+                  "name": "footerLink1",
+                  "fill": "#6B7280",
+                  "content": "Privacy",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "lTiYB",
+                  "name": "footerLink2",
+                  "fill": "#6B7280",
+                  "content": "Feedback",
+                  "fontFamily": "Montserrat",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

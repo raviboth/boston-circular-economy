@@ -1,0 +1,8 @@
+- banner [ref=e3]:
+  - generic [ref=e4]:
+    - button "B City of Boston Circular Economy Tool" [ref=e5] [cursor=pointer]:
+      - generic [ref=e7]: B
+      - generic [ref=e8]:
+        - generic [ref=e9]: City of Boston
+        - generic [ref=e10]: Circular Economy Tool
+    - generic [ref=e11]: Prototype

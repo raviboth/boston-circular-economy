@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree -L 3 -I 'node_modules' /Users/raviboth/boston-circular-economy/client 2>/dev/null || find /Users/raviboth/boston-circular-economy/client -not -path '*/node_modules*' -type d | head -30)"
+    ]
+  }
+}

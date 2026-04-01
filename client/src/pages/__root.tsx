@@ -1,13 +1,21 @@
-import { createRootRoute, Outlet, Link } from '@tanstack/react-router'
+import { createRootRoute, Outlet } from '@tanstack/react-router'
+import { NavBar } from '../components/NavBar/NavBar'
+import { PageLayout } from '../components/PageLayout/PageLayout'
+
+const NAV_LINKS = [
+  { label: 'Services', to: '/services/' },
+  { label: 'Dev', to: '/dev/' },
+]
 
 export const Route = createRootRoute({
   component: () => (
     <>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/dev">Prototypes</Link>
-      </nav>
-      <Outlet />
+      <NavBar links={NAV_LINKS} />
+      <div className="pt-14">
+        <PageLayout>
+          <Outlet />
+        </PageLayout>
+      </div>
     </>
   ),
 })

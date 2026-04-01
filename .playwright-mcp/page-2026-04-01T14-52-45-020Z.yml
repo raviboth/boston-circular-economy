@@ -1,0 +1,557 @@
+- generic [ref=e2]:
+  - link "Skip to Main Content" [ref=e4] [cursor=pointer]:
+    - /url: "#content"
+  - navigation [ref=e5]:
+    - link "Go to home page" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img [ref=e9]
+    - navigation "Main menu" [ref=e11]:
+      - generic [ref=e12]: Main menu
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "Help / 311" [ref=e15] [cursor=pointer]:
+            - /url: https://www.boston.gov/departments/boston-311
+        - listitem [ref=e16]:
+          - link "Home" [ref=e17] [cursor=pointer]:
+            - /url: /homepage-bostongov
+        - listitem [ref=e18]:
+          - link "Guides to Boston" [ref=e19] [cursor=pointer]:
+            - /url: /guides
+        - listitem [ref=e20]:
+          - link "Departments" [ref=e21] [cursor=pointer]:
+            - /url: /departments
+        - listitem [ref=e22]:
+          - link "Public Notices" [ref=e23] [cursor=pointer]:
+            - /url: /public-notices
+        - listitem [ref=e24]:
+          - link "Pay and apply" [ref=e25] [cursor=pointer]:
+            - /url: /city-boston-services-applications-and-permits
+        - listitem [ref=e26]:
+          - link "Business Support" [ref=e27] [cursor=pointer]:
+            - /url: https://www.boston.gov/government/cabinets/economic-opportunity-and-inclusion
+        - listitem [ref=e28]:
+          - link "Events" [ref=e29] [cursor=pointer]:
+            - /url: /events
+        - listitem [ref=e30]:
+          - link "City of Boston News" [ref=e31] [cursor=pointer]:
+            - /url: /news
+        - listitem [ref=e32]:
+          - link "View City Projects" [ref=e33] [cursor=pointer]:
+            - /url: /departments/boston-digital-service/project-search
+        - listitem [ref=e34]:
+          - link "Newsletters" [ref=e35] [cursor=pointer]:
+            - /url: https://newsletters.boston.gov/subscribe
+        - listitem [ref=e36]:
+          - link "Places" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e38]:
+          - link "Government" [ref=e39] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e40]:
+          - link "Feedback" [ref=e41] [cursor=pointer]:
+            - /url: mailto:mayor24reply@boston.gov
+        - listitem [ref=e42]:
+          - link "Jobs and careers" [ref=e43] [cursor=pointer]:
+            - /url: /career-center
+        - listitem [ref=e44]:
+          - link "The Mayor's Office" [ref=e45] [cursor=pointer]:
+            - /url: /departments/mayors-office
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - checkbox "Boston.gov An official website of the City of Boston. Here's how you know" [ref=e48]
+      - generic [ref=e51]:
+        - img "Boston.gov" [ref=e52]
+        - generic [ref=e53]:
+          - text: An official website of the City of Boston.
+          - generic [ref=e54]:
+            - text: Here's how you know
+            - img [ref=e56]
+    - banner [ref=e58]:
+      - generic [ref=e63] [cursor=pointer]:
+        - generic [ref=e64]: Toggle
+        - text: Menu
+      - generic [ref=e66]:
+        - link "Boston.gov" [ref=e67] [cursor=pointer]:
+          - /url: /
+          - img "Boston.gov" [ref=e68]
+        - link "Mayor Michelle Wu" [ref=e70] [cursor=pointer]:
+          - /url: /mayor
+      - navigation [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Information and Services" [ref=e74] [cursor=pointer]:
+              - /url: /city-boston-services-applications-and-permits
+          - listitem [ref=e75]:
+            - link "Public notices" [ref=e76] [cursor=pointer]:
+              - /url: /public-notices
+          - listitem [ref=e77]:
+            - link "Boston.gov Feedback" [ref=e78] [cursor=pointer]:
+              - /url: /form/website-feedback-form?full=1
+              - text: Feedback
+          - listitem [ref=e79]:
+            - link "English Español Soomaali Português français 简体中文" [ref=e80] [cursor=pointer]:
+              - /url: "#translate"
+              - generic [ref=e81]: English
+              - generic [ref=e82]: Español
+              - generic [ref=e83]: Soomaali
+              - generic [ref=e84]: Português
+              - generic [ref=e85]: français
+              - generic [ref=e86]: 简体中文
+          - listitem [ref=e87]:
+            - generic "Search" [ref=e88] [cursor=pointer]:
+              - text: ×
+              - img [ref=e89]
+    - main [ref=e93]:
+      - article [ref=e94]:
+        - generic [ref=e96]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: Welcome to the
+            - heading "City of Boston" [level=1] [ref=e102]
+          - generic [ref=e105]:
+            - heading "Wednesday, April 1" [level=2] [ref=e112]
+            - generic [ref=e115]:
+              - link "City Hall Operating Hours Boston City Hall is open Monday through Friday from 9 a.m. - 5 p.m., but many offices close to the public at 4 or 4:30 p.m." [ref=e117] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/mayors-office/contact-boston-city-hall
+                - img [ref=e119]
+                - generic [ref=e148]:
+                  - generic [ref=e149]: City Hall Operating Hours
+                  - paragraph [ref=e153]: Boston City Hall is open Monday through Friday from 9 a.m. - 5 p.m., but many offices close to the public at 4 or 4:30 p.m.
+              - link "Trash and recycling Pickup is on a normal schedule." [ref=e155] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/public-works/trash-and-recycling-day-schedule-and-search
+                - img [ref=e157]
+                - generic [ref=e163]:
+                  - generic [ref=e164]: Trash and recycling
+                  - paragraph [ref=e168]: Pickup is on a normal schedule.
+              - link "Street Cleaning Street cleaning is on a normal schedule." [ref=e170] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/public-works/street-sweeping-city
+                - img [ref=e172]
+                - generic [ref=e183]:
+                  - generic [ref=e184]: Street Cleaning
+                  - paragraph [ref=e188]: Street cleaning is on a normal schedule.
+              - link "Parking meters Parking meters are running on their normal schedules today." [ref=e190] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/parking-clerk/how-do-parking-meters-work
+                - img [ref=e192]
+                - generic [ref=e196]:
+                  - generic [ref=e197]: Parking meters
+                  - paragraph [ref=e201]: Parking meters are running on their normal schedules today.
+              - link "Tow lot The tow lot is only open Monday through Friday, from 7 a.m. - 10:30 p.m. Automated kiosks are available 24 hours a day, seven days a week for vehicle releases." [ref=e203] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/transportation/how-get-your-towed-car-back
+                - img [ref=e205]
+                - generic [ref=e221]:
+                  - generic [ref=e222]: Tow lot
+                  - paragraph [ref=e226]: The tow lot is only open Monday through Friday, from 7 a.m. - 10:30 p.m. Automated kiosks are available 24 hours a day, seven days a week for vehicle releases.
+          - generic [ref=e229]:
+            - heading "Featured resources" [level=2] [ref=e231]
+            - generic [ref=e232]:
+              - link "ADA Curb Ramp Requests" [ref=e233] [cursor=pointer]:
+                - /url: /departments/disabilities-commission/ada-curb-ramp-requests
+                - article [ref=e235]:
+                  - img [ref=e236]
+                - generic [ref=e237]: ADA Curb Ramp Requests
+              - link "Apply for a City Job" [ref=e238] [cursor=pointer]:
+                - /url: /career-center
+                - article [ref=e240]:
+                  - img [ref=e241]
+                - generic [ref=e242]: Apply for a City Job
+              - link "Building Permits and Licenses" [ref=e243] [cursor=pointer]:
+                - /url: /boston-permitting
+                - article [ref=e245]:
+                  - img [ref=e246]
+                - generic [ref=e247]: Building Permits and Licenses
+              - link "Boston Property Information Lookup" [ref=e248] [cursor=pointer]:
+                - /url: https://properties.boston.gov/
+                - article [ref=e250]:
+                  - img [ref=e251]
+                - generic [ref=e252]: Boston Property Information Lookup
+              - link "Get a Resident Parking Permit" [ref=e253] [cursor=pointer]:
+                - /url: /departments/parking-clerk/how-get-resident-parking-permit
+                - article [ref=e255]:
+                  - img [ref=e256]
+                - generic [ref=e257]: Get a Resident Parking Permit
+              - link "Mattress Recycling" [ref=e258] [cursor=pointer]:
+                - /url: /departments/public-works/mattress-recycling
+                - article [ref=e260]:
+                  - img [ref=e261]
+                - generic [ref=e262]: Mattress Recycling
+              - link "Order Birth Certificates Online" [ref=e263] [cursor=pointer]:
+                - /url: https://registry.boston.gov/birth
+                - article [ref=e265]:
+                  - img [ref=e266]
+                - generic [ref=e267]: Order Birth Certificates Online
+              - link "Pay a Parking Ticket" [ref=e268] [cursor=pointer]:
+                - /url: /departments/parking-clerk/how-pay-parking-ticket
+                - article [ref=e270]:
+                  - img [ref=e271]
+                - generic [ref=e272]: Pay a Parking Ticket
+              - link "Search Resources and Elected Officials for Your Neighborhood" [ref=e273] [cursor=pointer]:
+                - /url: /my-neighborhood
+                - article [ref=e275]:
+                  - img [ref=e276]
+                - generic [ref=e277]: Search Resources and Elected Officials for Your Neighborhood
+              - link "Special Item / Bulk Item Trash Pickups" [ref=e278] [cursor=pointer]:
+                - /url: /departments/public-works/special-collection-items
+                - article [ref=e280]:
+                  - img [ref=e281]
+                - generic [ref=e282]: Special Item / Bulk Item Trash Pickups
+              - link "View Projects across the City of Boston" [ref=e283] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/boston-digital-service/project-search
+                - article [ref=e285]:
+                  - img [ref=e286]
+                - generic [ref=e287]: View Projects across the City of Boston
+              - link "Report an Issue with 311" [ref=e288] [cursor=pointer]:
+                - /url: https://311.boston.gov/
+                - article [ref=e290]:
+                  - img [ref=e291]
+                - generic [ref=e292]: Report an Issue with 311
+          - generic [ref=e294]:
+            - 'link "1 Guide: Welcome to Boston Permitting" [ref=e295] [cursor=pointer]':
+              - /url: /boston-permitting
+              - generic [ref=e296]:
+                - generic [ref=e298]: "1"
+                - generic [ref=e299]:
+                  - generic [ref=e300]: "Guide:"
+                  - generic [ref=e301]: Welcome to Boston Permitting
+            - 'link "2 Guide: Managing Winter and Snow" [ref=e302] [cursor=pointer]':
+              - /url: /managing-winter-and-snow
+              - generic [ref=e303]:
+                - generic [ref=e305]: "2"
+                - generic [ref=e306]:
+                  - generic [ref=e307]: "Guide:"
+                  - generic [ref=e308]: Managing Winter and Snow
+            - 'link "3 Guide: Trash and Recycling" [ref=e309] [cursor=pointer]':
+              - /url: /trash-and-recycling
+              - generic [ref=e310]:
+                - generic [ref=e312]: "3"
+                - generic [ref=e313]:
+                  - generic [ref=e314]: "Guide:"
+                  - generic [ref=e315]: Trash and Recycling
+            - 'link "4 Guide: Visiting Boston" [ref=e316] [cursor=pointer]':
+              - /url: /visiting-boston
+              - generic [ref=e317]:
+                - generic [ref=e319]: "4"
+                - generic [ref=e320]:
+                  - generic [ref=e321]: "Guide:"
+                  - generic [ref=e322]: Visiting Boston
+          - generic [ref=e324]:
+            - generic [ref=e325]:
+              - heading "Latest news" [level=2] [ref=e326]
+              - generic [ref=e327]: Latest news
+            - generic [ref=e332]:
+              - link "Five Things Small Business Owners Need to Know Ahead of the Summer of 2026" [ref=e334] [cursor=pointer]:
+                - /url: https://www.boston.gov/news/five-things-small-business-owners-need-know-ahead-summer-2026
+                - generic [ref=e335]:
+                  - img "Apr 1" [ref=e336]
+                  - paragraph [ref=e338]:
+                    - time [ref=e339]: Apr 1
+                  - generic [ref=e340]:
+                    - img "Boston Skyline by Elaine Brewer on Unsplash" [ref=e343]
+                    - generic [ref=e345]:
+                      - heading "Five Things Small Business Owners Need to Know Ahead of the Summer of 2026" [level=3] [ref=e346]
+                      - generic [ref=e347]: Economic Opportunity and Inclusion
+              - link "Boston Parks Department announces registration for Tenacity’s 2026 Summer Tennis" [ref=e349] [cursor=pointer]:
+                - /url: https://www.boston.gov/news/boston-parks-department-announces-registration-tenacitys-2026-summer-tennis-and-reading
+                - generic [ref=e350]:
+                  - img "Mar 31" [ref=e351]
+                  - paragraph [ref=e353]:
+                    - time [ref=e354]: Mar 31
+                  - generic [ref=e359]:
+                    - heading "Boston Parks Department announces registration for Tenacity’s 2026 Summer Tennis" [level=3] [ref=e360]
+                    - generic [ref=e361]: Parks and Recreation
+              - link "Mayor Michelle Wu Announces Launch of Boston’s Summer Youth Jobs Program" [ref=e363] [cursor=pointer]:
+                - /url: https://www.boston.gov/news/mayor-michelle-wu-announces-launch-bostons-summer-youth-jobs-program
+                - generic [ref=e364]:
+                  - img "Mar 31" [ref=e365]
+                  - paragraph [ref=e367]:
+                    - time [ref=e368]: Mar 31
+                  - generic [ref=e369]:
+                    - img "Over 2,200 attendees have already registered for Saturday’s fair; more than 3,000 youth currently in the process of onboarding for a job this summer" [ref=e372]
+                    - generic [ref=e374]:
+                      - heading "Mayor Michelle Wu Announces Launch of Boston’s Summer Youth Jobs Program" [level=3] [ref=e375]
+                      - generic [ref=e376]: Youth Employment and Opportunity
+              - link "Boston's Best Spellers Celebrated at 18th Annual Citywide Spelling Bee" [ref=e378] [cursor=pointer]:
+                - /url: https://www.boston.gov/news/bostons-best-spellers-celebrated-18th-annual-citywide-spelling-bee
+                - generic [ref=e379]:
+                  - img "Mar 30" [ref=e380]
+                  - paragraph [ref=e382]:
+                    - time [ref=e383]: Mar 30
+                  - generic [ref=e384]:
+                    - img "BCYF 2026 Spelling Bee Participants" [ref=e387]
+                    - generic [ref=e389]:
+                      - heading "Boston's Best Spellers Celebrated at 18th Annual Citywide Spelling Bee" [level=3] [ref=e390]
+                      - generic [ref=e391]: Boston Centers for Youth and Families
+            - link "More City news" [ref=e392] [cursor=pointer]:
+              - /url: /news
+          - generic [ref=e394]:
+            - heading "Featured videos" [level=2] [ref=e396]
+            - generic [ref=e397]:
+              - link "We Are Black Boston Honoring the legacy, contributions, and presence of Black Bostonians." [ref=e398] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=Xq0XMI3YMMQ
+                - generic [ref=e400]:
+                  - paragraph [ref=e402]: We Are Black Boston
+                  - paragraph [ref=e404]: Honoring the legacy, contributions, and presence of Black Bostonians.
+              - link "City of Boston YouTube Channel Check out our latest videos on the City of Boston's YouTube account." [ref=e405] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/cityofboston
+                - generic [ref=e407]:
+                  - paragraph [ref=e409]: City of Boston YouTube Channel
+                  - paragraph [ref=e411]: Check out our latest videos on the City of Boston's YouTube account.
+              - 'link "Boston City TV YouTube Channel Boston City TV can also be viewed on your local cable TV provider: Xfinity 24, RCN 13, and Fios 962." [ref=e412] [cursor=pointer]':
+                - /url: https://www.youtube.com/channel/UCImopNmmU11qfuWBbiXdowQ
+                - generic [ref=e414]:
+                  - paragraph [ref=e416]: Boston City TV YouTube Channel
+                  - paragraph [ref=e418]: "Boston City TV can also be viewed on your local cable TV provider: Xfinity 24, RCN 13, and Fios 962."
+          - generic [ref=e420]:
+            - generic [ref=e421]:
+              - heading "BOS:311 service requests" [level=2] [ref=e422]
+              - generic [ref=e423]: BOS:311
+            - generic [ref=e425]:
+              - link "All BOS:311 requests" [ref=e426] [cursor=pointer]:
+                - /url: https://311.boston.gov/
+              - link "Improper storage of trash barrels" [ref=e427] [cursor=pointer]:
+                - /url: http://www.cityofboston.gov/mayor/24?topic=trash-storage
+              - link "Request a bulk item pickup" [ref=e428] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/public-works/special-collection-items#/special_item
+              - link "Request sidewalk repair" [ref=e429] [cursor=pointer]:
+                - /url: https://boston2-production.spotmobile.net/tickets/new?submission[ticket_type_code]=Public+Works+Department%3AHighway+Maintenance%3ASidewalk+Repair+%28Make+Safe%29
+              - link "Tree maintenance" [ref=e430] [cursor=pointer]:
+                - /url: http://www.cityofboston.gov/mayor/24?topic=tree
+              - link "Report a pothole" [ref=e431] [cursor=pointer]:
+                - /url: https://boston2-production.spotmobile.net/tickets/new?submission%5Bticket_type_code%5D=Public%20Works%20Department%3AHighway%20Maintenance%3ARequest%20for%20Pothole%20Repair
+              - link "Report a parking violation" [ref=e432] [cursor=pointer]:
+                - /url: http://www.cityofboston.gov/mayor/24?topic=parking-enforcement
+              - link "Report a missing or damaged street sign" [ref=e433] [cursor=pointer]:
+                - /url: https://311.boston.gov/tickets/new
+              - link "Report a streetlight outage" [ref=e434] [cursor=pointer]:
+                - /url: https://311.boston.gov/tickets/new
+          - generic [ref=e437]:
+            - heading "Stay Connected" [level=2] [ref=e439]
+            - generic [ref=e440]:
+              - paragraph [ref=e445]: Sign up for email updates from the City of Boston, including information on big events and upcoming traffic and parking restrictions.
+              - generic [ref=e448]:
+                - generic [ref=e449]:
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: Enter Your Email Address
+                    - textbox "Enter Your Email Address" [ref=e452]:
+                      - /placeholder: Email address
+                  - generic [ref=e453]:
+                    - generic [ref=e454]: Zip Code
+                    - textbox "Zip Code" [ref=e455]
+                  - generic [ref=e456]:
+                    - generic [ref=e457]: Gotcha
+                    - textbox "Gotcha" [ref=e458]:
+                      - /placeholder: Honey
+                - button "Sign Up" [ref=e460] [cursor=pointer]
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - heading "Upcoming Events" [level=2] [ref=e464]
+              - generic [ref=e465]: Upcoming Events
+            - generic [ref=e472]:
+              - 'link "City Council Committee on Ways and Means Hearing on Dockets #0619-0620 On Apr 1 Apr 1" [ref=e473] [cursor=pointer]':
+                - /url: https://www.boston.gov/public-notices/16572366
+                - generic [ref=e475]: "City Council Committee on Ways and Means Hearing on Dockets #0619-0620"
+                - img "On Apr 1" [ref=e476]
+                - paragraph [ref=e478]: Apr 1
+              - link "Business Certification Office Hours On Apr 1 Apr 1" [ref=e479] [cursor=pointer]:
+                - /url: https://www.boston.gov/calendar/business-certification-office-hours
+                - generic [ref=e481]: Business Certification Office Hours
+                - img "On Apr 1" [ref=e482]
+                - paragraph [ref=e484]: Apr 1
+              - 'link "futureBOS BPS Pop Up Fairs: Madison Park Vocational Technical High School On Apr 1 Apr 1" [ref=e485] [cursor=pointer]':
+                - /url: https://www.boston.gov/calendar/futurebos-bps-pop-fairs-madison-park-vocational-technical-high-school
+                - generic [ref=e487]: "futureBOS BPS Pop Up Fairs: Madison Park Vocational Technical High School"
+                - img "On Apr 1" [ref=e488]
+                - paragraph [ref=e490]: Apr 1
+              - link "Free Immigration Consultations On Apr 1 Apr 1" [ref=e491] [cursor=pointer]:
+                - /url: https://www.boston.gov/calendar/free-immigration-consultations
+                - generic [ref=e493]: Free Immigration Consultations
+                - img "On Apr 1" [ref=e494]
+                - paragraph [ref=e496]: Apr 1
+              - link "City Council Meeting On Apr 1 Apr 1" [ref=e497] [cursor=pointer]:
+                - /url: https://www.boston.gov/public-notices/16502901
+                - generic [ref=e499]: City Council Meeting
+                - img "On Apr 1" [ref=e500]
+                - paragraph [ref=e502]: Apr 1
+              - 'link "Parks Fitness: Tai Chi with Joe On Apr 1 Apr 1" [ref=e503] [cursor=pointer]':
+                - /url: https://www.boston.gov/calendar/parks-fitness-tai-chi-joe
+                - generic [ref=e505]: "Parks Fitness: Tai Chi with Joe"
+                - img "On Apr 1" [ref=e506]
+                - paragraph [ref=e508]: Apr 1
+              - link "Metro Boston Homeland Security Region Critical Infrastructure Subcommittee Meeting On Apr 1 Apr 1" [ref=e509] [cursor=pointer]:
+                - /url: https://www.boston.gov/public-notices/16572476
+                - generic [ref=e511]: Metro Boston Homeland Security Region Critical Infrastructure Subcommittee Meeting
+                - img "On Apr 1" [ref=e512]
+                - paragraph [ref=e514]: Apr 1
+              - link "Workers' Rights Office Hours On Apr 1 Apr 1" [ref=e515] [cursor=pointer]:
+                - /url: https://www.boston.gov/calendar/workers-rights-office-hours
+                - generic [ref=e517]: Workers' Rights Office Hours
+                - img "On Apr 1" [ref=e518]
+                - paragraph [ref=e520]: Apr 1
+              - link "Summer 2026 Boston Hospitality Office Hours On Apr 1 Apr 1" [ref=e521] [cursor=pointer]:
+                - /url: https://www.boston.gov/calendar/summer-2026-boston-hospitality-office-hours
+                - generic [ref=e523]: Summer 2026 Boston Hospitality Office Hours
+                - img "On Apr 1" [ref=e524]
+                - paragraph [ref=e526]: Apr 1
+            - link "Find more City events" [ref=e527] [cursor=pointer]:
+              - /url: https://www.boston.gov/events
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - heading "Boston Mayor Michelle Wu" [level=2] [ref=e531]
+              - generic [ref=e532]:
+                - text: "Contact:"
+                - link "Mayor's Office" [ref=e533] [cursor=pointer]:
+                  - /url: /contact/mayors-office
+            - generic [ref=e536]:
+              - generic [ref=e537]:
+                - paragraph
+                - generic "Mayor Michelle Wu" [ref=e538]:
+                  - img "Mayor Michelle Wu" [ref=e539]
+                - paragraph
+              - generic [ref=e540]:
+                - heading "Meet the Mayor" [level=4] [ref=e541]
+                - paragraph [ref=e542]: Michelle Wu is the Mayor of Boston. She is a daughter of immigrants, Boston Public Schools mom to two boys, MBTA commuter, and fierce believer that we can solve our deepest challenges through building community.
+                - paragraph [ref=e543]:
+                  - link "Learn about Mayor Wu" [ref=e544] [cursor=pointer]:
+                    - /url: /node/396
+          - generic [ref=e546]:
+            - generic [ref=e547]:
+              - heading "Boston City Council" [level=2] [ref=e548]
+              - generic [ref=e549]: City Council
+              - generic [ref=e550]:
+                - text: "Contact:"
+                - link "City Council" [ref=e551] [cursor=pointer]:
+                  - /url: /contact/city-council
+            - generic [ref=e552]:
+              - article [ref=e553]:
+                - group [ref=e554] [cursor=pointer]:
+                  - listitem [ref=e555]:
+                    - article [ref=e556]:
+                      - img "Ruthzee Louijeune headshot" [ref=e558]
+                  - generic [ref=e559]:
+                    - generic [ref=e560]: Ruthzee Louijeune
+                    - generic [ref=e561]: City Councilor, At-Large
+              - article [ref=e562]:
+                - group [ref=e563] [cursor=pointer]:
+                  - listitem [ref=e564]:
+                    - article [ref=e565]:
+                      - img "Henry Santana headshot" [ref=e567]
+                  - generic [ref=e568]:
+                    - generic [ref=e569]: Henry Santana
+                    - generic [ref=e570]: City Councilor, At-Large
+              - article [ref=e571]:
+                - group [ref=e572] [cursor=pointer]:
+                  - listitem [ref=e573]:
+                    - article [ref=e574]:
+                      - img "Julia M. Mejia headshot" [ref=e576]
+                  - generic [ref=e577]:
+                    - generic [ref=e578]: Julia M. Mejia
+                    - generic [ref=e579]: City Councilor, At-Large
+              - article [ref=e580]:
+                - group [ref=e581] [cursor=pointer]:
+                  - listitem [ref=e582]:
+                    - article [ref=e583]:
+                      - img "Erin J. Murphy headshot" [ref=e585]
+                  - generic [ref=e586]:
+                    - generic [ref=e587]: Erin J. Murphy
+                    - generic [ref=e588]: City Councilor, At-Large
+              - article [ref=e589]:
+                - group [ref=e590] [cursor=pointer]:
+                  - listitem [ref=e591]:
+                    - article [ref=e592]:
+                      - img "Gabriela Coletta Zapata headshot" [ref=e594]
+                  - generic [ref=e595]:
+                    - generic [ref=e596]: Gabriela Coletta Zapata
+                    - generic [ref=e597]: City Councilor, District 1
+              - article [ref=e598]:
+                - group [ref=e599] [cursor=pointer]:
+                  - listitem [ref=e600]:
+                    - article [ref=e601]:
+                      - img "Edward Flynn" [ref=e603]
+                  - generic [ref=e604]:
+                    - generic [ref=e605]: Edward M. Flynn
+                    - generic [ref=e606]: City Councilor, District 2
+              - article [ref=e607]:
+                - group [ref=e608] [cursor=pointer]:
+                  - listitem [ref=e609]:
+                    - article [ref=e610]:
+                      - img "John FitzGerald headshot" [ref=e612]
+                  - generic [ref=e613]:
+                    - generic [ref=e614]: John FitzGerald
+                    - generic [ref=e615]: City Councilor, District 3
+              - article [ref=e616]:
+                - group [ref=e617] [cursor=pointer]:
+                  - listitem [ref=e618]:
+                    - article [ref=e619]:
+                      - img "Brian Worrell headshot" [ref=e621]
+                  - generic [ref=e622]:
+                    - generic [ref=e623]: Brian Worrell
+                    - generic [ref=e624]: City Councilor, District 4
+              - article [ref=e625]:
+                - group [ref=e626] [cursor=pointer]:
+                  - listitem [ref=e627]:
+                    - article [ref=e628]:
+                      - img "Enrique J. Pepén headshot" [ref=e630]
+                  - generic [ref=e631]:
+                    - generic [ref=e632]: Enrique J. Pepén
+                    - generic [ref=e633]: City Councilor, District 5
+              - article [ref=e634]:
+                - group [ref=e635] [cursor=pointer]:
+                  - listitem [ref=e636]:
+                    - article [ref=e637]:
+                      - img "Benjamin J. Weber headshot" [ref=e639]
+                  - generic [ref=e640]:
+                    - generic [ref=e641]: Benjamin J. Weber
+                    - generic [ref=e642]: City Councilor, District 6
+              - article [ref=e643]:
+                - group [ref=e644] [cursor=pointer]:
+                  - listitem [ref=e645]:
+                    - article [ref=e646]:
+                      - img "Miniard Culpepper headshot" [ref=e648]
+                  - generic [ref=e649]:
+                    - generic [ref=e650]: Miniard Culpepper
+                    - generic [ref=e651]: City Councilor, District 7
+              - article [ref=e652]:
+                - group [ref=e653] [cursor=pointer]:
+                  - listitem [ref=e654]:
+                    - article [ref=e655]:
+                      - img "Sharon Durkan headshot" [ref=e657]
+                  - generic [ref=e658]:
+                    - generic [ref=e659]: Sharon Durkan
+                    - generic [ref=e660]: City Councilor, District 8
+              - article [ref=e661]:
+                - group [ref=e662] [cursor=pointer]:
+                  - listitem [ref=e663]:
+                    - article [ref=e664]:
+                      - img "Liz Breadon headshot" [ref=e666]
+                  - generic [ref=e667]:
+                    - generic [ref=e668]: Liz Breadon
+                    - generic [ref=e669]: City Council President; City Councilor, District 9
+      - link "Provide Your Feedback" [ref=e673] [cursor=pointer]:
+        - /url: /form/website-feedback-form?source_entity_type=node&source_entity_id=21
+    - link "Back to top" [ref=e674] [cursor=pointer]:
+      - /url: "#content"
+      - img "Back to top" [ref=e675]
+    - contentinfo [ref=e676]:
+      - generic [ref=e677]:
+        - navigation "Footer menu" [ref=e678]:
+          - generic [ref=e679]: Footer menu
+          - list [ref=e680]:
+            - listitem [ref=e681]:
+              - link "Privacy Policy" [ref=e682] [cursor=pointer]:
+                - /url: /government/cabinets/innovation-and-technology/terms-use-and-privacy-policy-city-boston-digital
+            - listitem [ref=e683]:
+              - link "Vulnerability Disclosure" [ref=e684] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/e/1FAIpQLSfWrMpJC1kZAhzJ43lAO8uWn9tjEqvTdfBprJZnGKJLt1uygg/viewform
+            - listitem [ref=e685]:
+              - link "Public records" [ref=e686] [cursor=pointer]:
+                - /url: https://bostonma.govqa.us/WEBAPP/_rs/(S(den310hnrpqz2rzh5lgbgsby))/SupportHome.aspx
+            - listitem [ref=e687]:
+              - link "Accessibility" [ref=e688] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/language-and-communications-access/notice-accommodations
+            - listitem [ref=e689]:
+              - link "Contact Us" [ref=e690] [cursor=pointer]:
+                - /url: https://www.boston.gov/departments/mayors-office/contact-boston-city-hall
+        - list [ref=e691]:
+          - listitem [ref=e692]:
+            - link "BOS:311 Report an issue" [ref=e693] [cursor=pointer]:
+              - /url: http://www.cityofboston.gov/311/
+              - generic [ref=e694]: BOS:311
+              - text: Report an issue
